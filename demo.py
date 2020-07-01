@@ -6,7 +6,8 @@ class Result:
 
     def percent(self):
         percent = (self.pysics + self.maths + self.chemistry ) * 100 / 300
-
+        if percent > 70:
+            print("greater")
         return percent
 
 
