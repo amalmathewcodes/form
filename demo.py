@@ -6,9 +6,13 @@ class Result:
 
     def percent(self):
         percent = (self.pysics + self.maths + self.chemistry ) * 100 / 300
+
         return percent
+
+
     def check_grade(self,grade):
         self.grade = grade
+
         if grade == "A":
             print("A grade")
         elif grade == "B":
@@ -17,7 +21,12 @@ class Result:
             print("C grade")
 
 
+
+
+
+
 x = Result()
 x.mark(67, 96, 78)
 x.check_grade("A")
 print(x.percent())
+
