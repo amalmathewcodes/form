@@ -7,6 +7,11 @@ class Result:
     def percent(self):
         percent = (self.pysics + self.maths + self.chemistry ) * 100 / 300
         return percent
+        if( persent >= 90):
+            print("student will be achived into distingtion")
+        
+    
+
 
 
 x = Result()
