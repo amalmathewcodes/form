@@ -1,6 +1,6 @@
 class Result:
     def mark(self,pysics,chemistry,maths):
-        self.pysics = pysics
+        self.pysics = physics
         self.chemistry = chemistry
         self.maths = maths
 
